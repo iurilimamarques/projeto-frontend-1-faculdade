@@ -1,0 +1,36 @@
+.parent-chat-body {
+    font-family: arial;
+    font-size: 24px;
+    margin: 0px 25px 25px 25px;
+    height: 85%;
+}
+
+.child-chat-body {
+    width: 40%;
+    height: 100%;
+    /* Center horizontally*/
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.parent-chat-header {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px 25px 0px 25px;
+    height: 10%;
+}
+
+.child-chat-header {
+    width: 40%;
+    height: 100%;
+    /* Center horizontally*/
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    height:100%; 
+    width:100%; 
+}
