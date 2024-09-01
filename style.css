@@ -1,36 +1,97 @@
-.parent-chat-body {
-    font-family: arial;
-    font-size: 24px;
-    margin: 0px 25px 25px 25px;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 9%;
+    border: 1px solid;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
     height: 85%;
-}
-
-.child-chat-body {
-    width: 40%;
-    height: 100%;
-    /* Center horizontally*/
-    margin: 0 auto;
     border: 1px solid;
 }
 
-.parent-chat-header {
-    font-family: arial;
-    font-size: 24px;
-    margin: 25px 25px 0px 25px;
+.title {
+    margin-left: 20px;
+}
+
+.body-chat {
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    width: 95%;
+    height: 85%;
+    margin: 21px;
+    border: 1px solid;
+}
+
+.bottom-chat {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
     height: 10%;
+    margin: 9px;
 }
 
-.child-chat-header {
-    width: 40%;
-    height: 100%;
-    /* Center horizontally*/
-    margin: 0 auto;
+.input-chat {
+    height: 65%;
+    width: 80%;
+    font-size: 18px;
+}
+
+.send-button {
+    height: 65%;
+    width: 18%;
+    font-size: 18px;
+    color: green;
+    cursor: pointer;
+}
+
+.body-message {
+    display: flex;
+    max-width: 70%;
+    flex-direction: column;
+}
+
+.received-message {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.sent-message {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.message-content {
+    width: fit-content;
+    min-width: 45%;
+    /* max-width: 70%; */
     border: 1px solid;
-}
-
-html, body { 
-    margin: 0; 
-    padding: 0; 
-    height:100%; 
-    width:100%; 
+    background: #ffeec0;
 }
