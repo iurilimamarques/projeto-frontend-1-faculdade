@@ -49,9 +49,10 @@ html, body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    width: 98%;
+    width: 95%;
     height: 10%;
-    margin: 9px;
+    min-height: 40px;
+    margin: 0px 21px 21px 21px;
 }
 
 .input-chat {
@@ -61,7 +62,6 @@ html, body {
 }
 
 .send-button {
-    height: 65%;
     width: 18%;
     font-size: 18px;
     color: green;
@@ -89,9 +89,9 @@ html, body {
 }
 
 .message-content {
+    padding: 2px 70px 2px 10px;
     width: fit-content;
     min-width: 45%;
-    /* max-width: 70%; */
     border: 1px solid;
     background: #ffeec0;
 }
